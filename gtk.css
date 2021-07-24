@@ -1,0 +1,43 @@
+
+
+.default-decoration { 
+	height: 0px;
+	padding: 1.5px;
+}
+.default-decoration .titlebutton { 
+	height: 0px;
+ 	padding:  0px;
+}
+
+headerbar entry,    
+headerbar spinbutton,    
+headerbar button,    
+headerbar separator {    
+    margin-top: 0px; 
+    margin-bottom: 0px;    
+}    
+
+headerbar {    
+    min-height: 16px;    
+    padding-left: 1px;
+    padding-right: 1px;    
+    margin: 0px;
+    padding: 0px;    
+}    
+
+
+.header-bar.default-decoration {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    }
+
+.header-bar.default-decoration .button.titlebutton {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/* No line below the title bar */
+.ssd .titlebar {
+    border-width: 0.5px;
+    box-shadow: none;
+}
